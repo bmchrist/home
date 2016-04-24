@@ -1,27 +1,35 @@
 #icon-wrapper{
-    width: 100%;
-    height: 120px;
-    text-align: center;
-    position:absolute;
-    top:33%;
-    margin-top:-60px;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  position:absolute;
+  top:33%;
+  margin-top:-60px;
 }
+
 #icons{
-    width: 100%;
-    margin:auto;
+  width: 100%;
+  margin:auto;
 }
 #icons a{
-    -moz-transition: opacity .5s;
-    -webkit-transition: opacity .5s;
-    -o-transition: opacity .5s;
-    transition: opacity .5s;
-    margin-left: 10px;
-    margin-right: 10px;
+  -moz-transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  text-decoration: none;
+  border: 0px;
+  border-style:none;
 }
 
 #icons:hover a{
-    opacity: .2;
+  opacity: .2;
 }
+
 #icons:hover a:hover{
-    opacity: 1;
+  opacity: 1;
 }
