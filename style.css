@@ -24,6 +24,7 @@ img {
   text-decoration: none;
   border: 0px;
   border-style:none;
+  width: 10em;
 }
 
 #icons:hover a{
